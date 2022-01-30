@@ -10,10 +10,10 @@ extension.
 The **platformio.ini** file contains the necessary project settings for a particular platform.  
 For example, the following settings apply to a dev board with the Atmega328 chip.  
 
-[env:ATmega328P]  
+**[env:ATmega328P]  
 platform = atmelavr  
 board = ATmega328P  
-upload_speed = 57600 
+upload_speed = 57600**
 
 The **upload_speed** value can be adjusted based on the dev board being used. 57600 works for the  
 Arduino Nano while 115200 works for the Uno. Both boards use the Atmega328 microcontroller. With the  
