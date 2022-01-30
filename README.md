@@ -17,6 +17,6 @@ board = ATmega328P
 upload_speed = 57600 
 
 The **upload_speed** value can be adjusted based on the dev board being used. 57600 works for the  
-Arduino Nano while 115200 works for the Uno. Both boards used the Atmega328 microcontroller. With the  
-configuration above, the microcontroller on the dev board(s) can be programmed at the bare metal level  
-without dependending on the **Arduino framework**.
+Arduino Nano while 115200 works for the Uno. Both boards use the Atmega328 microcontroller. With the  
+configuration above, the microcontroller on the dev board can be programmed at the bare metal level  
+without depending on the **Arduino framework**.
