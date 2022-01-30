@@ -1,6 +1,5 @@
 # Atmegax8-Low-Level-I2C-library  
 
-## Description  
 This I2C device driver links a high level application with the I2C (or TWI) peripheral  
 of the Atmega48/88/168/328 microcontroller(s). The library is written in C and can be used  
 by any development board containing the aforementioned microcontroller(s) e.g. Arduino Uno,  
